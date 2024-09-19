@@ -2,6 +2,22 @@
 <html>
 <head>
     <title>First HTML</title>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 3px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
 </head>
 <body>
     <h1>Sravya Geethika Sala</h1>
@@ -26,6 +42,47 @@
         <li>Sausalito</li>
         <li>Napa Valley</li>
     </ul>
+    <hr>
+    <a href="myDish.html">Linkofmymedia</a>
+    <hr>
+    <h3>Recommended Restaurants in San Francisco</h3>
+    <p>Here are some of the top restaurants in San Francisco that I recommend. Each offers a unique dining experience and delicious cuisine:</p>
+    <table>
+            <tr>
+                <th><b>Restaurant</b></th>
+                <th><b>Reason for Recommendation</b></th>
+                <th><b>Location</b></th>
+            </tr>
+            <tr>
+                <td>House of Nanking</td>
+                <td>Authentic Chinese food with a creative twist</td>
+                <td>919 Kearny St</td>
+            </tr>
+            <tr>
+                <td>La Taqueria</td>
+                <td>Famous for its delicious tacos and burritos</td>
+                <td>2889 Mission St</td>
+            </tr>
+            <tr>
+                <td>Tadich Grill</td>
+                <td>Classic seafood restaurant with a historic atmosphere</td>
+                <td>240 California St</td>
+            </tr>
+            <tr>
+                <td>Ferry Building Marketplace</td>
+                <td>Variety of gourmet food stalls and artisanal products</td>
+                <td>1 Ferry Building</td>
+            </tr>
+    </table>
+    <hr>
+    <h3><b>Code Display</b></h3>
+    <p>This below snippet describes how to remove HTML tags from strings in JavaScript</p>
+    <pre>
+        <code class="language-javascript">
+            const strippedString = originalString.replace(/(<([^>]+)>)/gi, "");
+        </code>
+    </pre>
+    <a href="https://code.pieces.app/collections/javascript">Javascipt snippet</a>
     <hr>
 </body>
 </html>
